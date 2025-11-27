@@ -1,0 +1,42 @@
+/* Basic CSS styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.trial-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.trial-section h1 {
+    color: #333333;
+}
+
+.trial-section p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.trial-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.trial-section button:hover {
+    background-color: #0056b3;
+}
